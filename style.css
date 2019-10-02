@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background: #f7f7f7;
+    color: #1d1d1d;
+    font-family: Roboto;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+html, body, h1, h2, h3, h4, img {
+    width: 100%;
+}
+
+h1, h2, h3, h4 {
+    padding: 20px;
+    width: calc(100% - 40px);
+}
+
+.button {
+    background: darkslateblue;
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#best {
+    text-decoration: underline;
+}
+
+#target {
+    color: darkslateblue;
+}
